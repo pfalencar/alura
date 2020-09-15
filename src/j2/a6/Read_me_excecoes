@@ -1,0 +1,17 @@
+/*
+ * 								                            Exception  
+ *    
+ * IOException				                          RuntimeException						              SQLException  
+ * 		
+ * FileNotFoundException      	           NullPointerException, ArrayIndexOutOfBoundsException
+ * 
+ * 
+ * 
+ * Exception => filhas: IOException, RuntimeException, SQLException
+ * RuntimeException=>filhas: NullPointerException, ArrayIndexOutOfBoundsException
+ * IOException => filhas: FileNotFoundException
+ * 
+ * Alguns tipos de Exception são OBRIGATÓRIOS TRATAR explicitamente:
+ * OBRIGATÓRIO: IOException e SQLException. 
+ * OPCIONAL: RuntimeException e suas filhas.
+ */
